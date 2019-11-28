@@ -16,9 +16,14 @@
   <sonar.organization>jononekin</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   <sonar.login>26cc69444e354d594eabd20d707adaf129bbb95c</sonar.login>
+<<<<<<< HEAD
         <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
   
+=======
+     <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+>>>>>>> branch 'master' of http://github.com/jononekin/Monopoly
   </properties>
 
   <dependencies>
