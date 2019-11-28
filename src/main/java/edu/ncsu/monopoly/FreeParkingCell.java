@@ -7,6 +7,5 @@ public class FreeParkingCell extends Cell {
 	}
 
 	public void playAction() {
-		return;
 	}
 }
