@@ -16,8 +16,8 @@
       <sonar.projectKey>Monopoly</sonar.projectKey>   
       <sonar.organization>YOURNAME</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-    <sonar.login>YOUR SONAR ACCESS TOKEN</sonar.login> </properties>
-  </properties>
+    <sonar.login>YOUR SONAR ACCESS TOKEN</sonar.login> 
+    </properties>
 
   <dependencies>
     <dependency>
