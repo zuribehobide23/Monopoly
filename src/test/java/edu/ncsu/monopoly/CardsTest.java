@@ -3,7 +3,7 @@ package edu.ncsu.monopoly;
 import junit.framework.TestCase;
 
 public class CardsTest extends TestCase {
-    Card ccCard, chanceCard; 
+    Card ccCard, chanceCard;   
     
     GameMaster gameMaster;
 
