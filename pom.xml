@@ -5,7 +5,6 @@
   <groupId>iso2</groupId>
   <artifactId>Monopoly</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
   <name>Monopoly</name>
   <url>http://maven.apache.org</url>
@@ -31,14 +30,46 @@
     </executions>
 </plugin>
     </plugins>
-  </build>
+    <pluginManagement>
+    	<plugins>
+    		<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+    		<plugin>
+    			<groupId>org.eclipse.m2e</groupId>
+    			<artifactId>lifecycle-mapping</artifactId>
+    			<version>1.0.0</version>
+    			<configuration>
+    				<lifecycleMappingMetadata>
+    					<pluginExecutions>
+    						<pluginExecution>
+    							<pluginExecutionFilter>
+    								<groupId>
+    									org.apache.maven.plugins
+    								</groupId>
+    								<artifactId>
+    									maven-resources-plugin
+    								</artifactId>
+    								<versionRange>[2.6,)</versionRange>
+    								<goals>
+    									<goal>testResources</goal>
+    								</goals>
+    							</pluginExecutionFilter>
+    							<action>
+    								<ignore></ignore>
+    							</action>
+    						</pluginExecution>
+    					</pluginExecutions>
+    				</lifecycleMappingMetadata>
+    			</configuration>
+    		</plugin>
+    	</plugins>
+    </pluginManagement>
+</build>
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
-      <sonar.projectKey>MonopolySept8</sonar.projectKey>   
       <sonar.organization>jononekin</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-      <sonar.login>81a08424362a8029f028324821a72c8f207530ae</sonar.login> 
+      <sonar.login>554075962feeaf7577527ad99f93afe8f83044e0</sonar.login> 
     </properties>
 
   <dependencies>
