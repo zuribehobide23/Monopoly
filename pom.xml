@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>iso2</groupId>
-  <artifactId>Monopoly</artifactId>
+  <artifactId>Monopoly22222</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Monopoly</name>
+  <name>Monopoly22222</name>
   <url>http://maven.apache.org</url>
 <build>
     <plugins>
@@ -69,7 +69,7 @@
       <maven.compiler.target>1.8</maven.compiler.target>
       <sonar.organization>jononekin</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-      <sonar.login>bd8cbac74b0d89d60716edaafe7d32a61980b545</sonar.login> 
+      <sonar.login>7aa69b260afe89bbb0dc2a3310cdd0cb5e392482</sonar.login> 
     </properties>
 
   <dependencies>
