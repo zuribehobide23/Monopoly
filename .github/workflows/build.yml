@@ -33,4 +33,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -X -Dsonar.login="1ab60d17d05f3b6d7b1da5ca3db20f77e5ecf22c" verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+        run: mvn -X -Dsonar.login="1ab60d17d05f3b6d7b1da5ca3db20f77e5ecf22c" clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
