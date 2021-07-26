@@ -70,6 +70,8 @@
       <sonar.organization>jononekin</sonar.organization>
       <sonar.login>baf59b2974083e7c42bf38e7f8c20f0d241fec9a</sonar.login> 
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
+      <sonar.projectKey>Monopoly</sonar.projectKey> 
+      <sonar.projectName>Monopolyyy</sonar.projectName> 
     </properties>
 
   <dependencies>
