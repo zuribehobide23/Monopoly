@@ -69,7 +69,7 @@
       <maven.compiler.target>1.8</maven.compiler.target>
       <sonar.organization>jononekin</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-      <sonar.login>7aa69b260afe89bbb0dc2a3310cdd0cb5e392482</sonar.login> 
+      <sonar.login>cd820f32d3020b70310f638933e1250b34cc7cdc</sonar.login> 
     </properties>
 
   <dependencies>
