@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>iso2</groupId>
-  <artifactId>Monopoly22222</artifactId>
+  <artifactId>Monopoly</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Monopoly22222</name>
+  <name>Monopoly</name>
   <url>http://maven.apache.org</url>
 <build>
     <plugins>
