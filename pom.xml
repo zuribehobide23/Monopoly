@@ -46,11 +46,12 @@
          <maven.compiler.source>1.8</maven.compiler.source>
          <maven.compiler.target>1.8</maven.compiler.target>
          <sonar.organization>jononekin</sonar.organization>
-         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	 <sonar.login>4f41c0941c0786d003d525d95d0f4e1d4752d69e</sonar.login>
+  	 <sonar.projectKey>jononekin_Monopoly</sonar.projectKey>
+  	 <sonar.organization>jononekin</sonar.organization>
+  	 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
 
-  </properties>
   <dependencies>
 	<dependency>
   	  <groupId>junit</groupId>
