@@ -46,7 +46,7 @@
          <maven.compiler.source>1.8</maven.compiler.source>
          <maven.compiler.target>1.8</maven.compiler.target>
          <sonar.organization>jononekin</sonar.organization>
-  	 <sonar.projectKey>holaRadiola</sonar.projectKey>
+  	 <sonar.projectKey>jononekin_Monopoly</sonar.projectKey>
   	 <sonar.organization>jononekin</sonar.organization>
   	 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	 <sonar.login>9f803ac3ea565f713ea4dfddba4322e07ba95cfc</sonar.login>
