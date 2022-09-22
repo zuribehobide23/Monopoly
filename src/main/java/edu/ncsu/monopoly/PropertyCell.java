@@ -18,7 +18,7 @@ public class PropertyCell extends Cell {
 	public int getNumHouses() {
 		return numHouses;
 	}
-    
+    @Override
     public int getPrice() {
 		return sellPrice;
 	}
