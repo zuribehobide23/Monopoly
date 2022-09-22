@@ -40,8 +40,8 @@
     <maven.compiler.source>1.8</maven.compiler.source> 
     <sonar.organization>jononekin</sonar.organization> 
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>   
-    <sonar.projectKey>Monopoly23</sonar.projectKey>   
-    <sonar.login>93e46c03e572bdbd65ec52a57729a06ab72974f1</sonar.login>  
+    <sonar.projectKey>your sonarcloud project key name</sonar.projectKey>   
+    <sonar.login>your code</sonar.login>  
 </properties> 
  
 <!-- https://mvnrepository.com/artifact/junit/junit --> 
