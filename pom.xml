@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>change your data</groupId>
-	<artifactId>change your data</artifactId>
+	<groupId>1.0</groupId>
+	<artifactId>MonopolyCI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
@@ -39,12 +39,7 @@
           		 <version>2.19.1</version>
          		 <configuration>
           		     <testFailureIgnore>true</testFailureIgnore>
-	   		    <includes>
-           		  	   <include>*Int.java</include>
-             			   <include>*INT.java</include>
-                		   <include>*DAB.java</include>
-              			   <include>*DAW.java</include>
- 			  </includes>
+	   		    
            		 </configuration>
        		        </plugin>
 		</plugins>
@@ -61,10 +56,10 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 
-		<sonar.organization>change your data</sonar.organization>
+		<sonar.organization>jononekin</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>change your data</sonar.projectKey>
-		<sonar.login>change your data</sonar.login>
+		<sonar.projectKey>jononekin_monopolyci</sonar.projectKey>
+		<sonar.login>90a468852cc035e4be637130569e928051818a41</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
