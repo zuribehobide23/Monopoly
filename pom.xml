@@ -33,15 +33,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-         		 <groupId>org.apache.maven.plugins</groupId>
-         		 <artifactId>maven-surefire-plugin</artifactId>
-          		 <version>2.19.1</version>
-         		 <configuration>
-          		     <testFailureIgnore>true</testFailureIgnore>
-	   		    
-           		 </configuration>
-       		        </plugin>
 		</plugins>
 	</build>
 	<repositories>
@@ -56,10 +47,10 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 
-		<sonar.organization>jononekin</sonar.organization>
+		<sonar.organization>zuribehobide</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>jononekin_monopolyci</sonar.projectKey>
-		<sonar.login>90a468852cc035e4be637130569e928051818a41</sonar.login>
+		<sonar.projectKey>zuribehobide_monopoly</sonar.projectKey>
+		<sonar.login>6047ca56089329dfc2ca7d29d2001ae21a112ef8</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
